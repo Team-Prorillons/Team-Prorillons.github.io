@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manthan</title>
-    <link rel="icon" type="image/png" href="assets/images/sample-shield.jpg" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/images/sample-shield.png" sizes="16x16">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
+     <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <link rel="stylesheet" href="assets/css/owl.theme.green.css">
 
 </head>
@@ -19,8 +20,8 @@
             <nav class="nav d-flex" id="home">
                 <div class="logo">
                     <a href="#">
-                        <img src="assets/images/sample-shield.jpg" alt="logo" class="logo-main">
-                        <img src="assets/images/sample-shield-dark.jpg" alt="logo-dark" class="logo-dark">
+                        <img src="assets/images/sample-shield.png" alt="logo" style="height:50px;width:50px"class="logo-main">
+                        <img src="assets/images/sample-shield.png" alt="logo-dark" style="height:50px;width:50px"  class="logo-dark">
 
                     </a>
                 </div>
@@ -46,6 +47,7 @@
                         <li><a href="#mapping">Mapping</a></li>
                         <li><a href="#insights">Insights</a></li>          
                         <li><a href="#predict">Predict</a></li>
+                        <li><a href="#video">Video</a></li>
                         <li class="darkmode-btn d-desktop">
                             <a href="javascript:void(0)">
                                 <img src="assets/images/brightness.svg" alt="brightness" class="bright">
@@ -56,7 +58,6 @@
                 <div class="darkmode-btn d-mobile"><a href="javascript:void(0)">
                         <img src="assets/images/brightness.svg" alt="brightness" class="bright">
                         <img src="assets/images/moon.svg" alt="moon" class="dark"> </a></div>
-
             </nav>
         </div>
     </header>
@@ -96,11 +97,18 @@
         <section class="services ptb-100" id="mapping">
             <div class="container">
                 <h2>Mapping</h2>
-                
-                <iframe id = "mapId" src = "https://www.google.com/maps/d/u/0/embed?mid=1NxcI2YVGdLExyxtvsk9_TecCLCxk63XD"  width="80%" height="480"></iframe>
+                <script>
+                   
+                    function crime(ml)
+                    {
+                        document.getElementById("mapId").src = ml
+                    }
+                    
+                </script>
+                <iframe id = "mapId" src = "https://www.google.com/maps/d/embed?mid=1NxcI2YVGdLExyxtvsk9_TecCLCxk63XD"   width="80%" height="480px"></iframe>
                      
                      <div class="vertical-menu" style="float:right;">
-                        <div class="active"><a onclick="crime('https:/www.google.com/maps/d/u/0/embed?mid=1NxcI2YVGdLExyxtvsk9_TecCLCxk63XD')"><h1>Crime Events</h1></a><hr>
+                        <div class="active"><a onclick="crime('https:/www.google.com/maps/d/embed?mid=1NxcI2YVGdLExyxtvsk9_TecCLCxk63XD ')"><h1>Crime Events</h1></a><hr>
                         <a onclick="crime('https:/www.google.com/maps/d/embed?mid=1LLnsTu9pZp5OCzMCdTK97N2QcuwY3pvB')">Accident</a>
                         <a onclick="crime('https:/www.google.com/maps/d/u/0/embed?mid=1sHFXVfIpo193OsosOVecOaay1UbA9mTc')">Accident Explosive</a>
                         <a onclick="crime('https:/www.google.com/maps/d/embed?mid=1pjXj-AGJ5Znz5ZCqDFrc8LxG4yAL6uIB')">Animals Related</a>
@@ -170,7 +178,7 @@
 
 
 
-<div style="width:50%;float:left;">
+<div style="width:50%;float:right;">
     <a href="https://plotly.com/~Prorillon/3/?share_key=Y3FQBd5U74QtceqGtaj6mG" target="_blank" title="Plot 3" style="display: block; text-align: center;">
         <img src="https://plotly.com/~Prorillon/3.png?share_key=Y3FQBd5U74QtceqGtaj6mG" alt="Plot 3" style="max-width: 95%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="Prorillon:3" sharekey-plotly="Y3FQBd5U74QtceqGtaj6mG" src="https://plotly.com/embed.js" async></script>
@@ -182,7 +190,8 @@
         <img src="https://plotly.com/~Prorillon/6.png?share_key=j0M2NqqNsv2wKpoyOkYOdw" alt="Plot 6" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="Prorillon:6" sharekey-plotly="j0M2NqqNsv2wKpoyOkYOdw" src="https://plotly.com/embed.js" async></script>
 </div>
-<p>After Preparation of data for one year the analytics will be updated</p>
+<p>Currently the insights tab only has 3 months analytics after collecting external data the insights will be updated for 1 year</p>
+<a href="https://github.com/Team-Prorillons/Team-Prorillons.github.io/tree/main/ProjectFiles" target="_blank">Click Here to view our Project files</a>
 </div>
 
 
@@ -191,79 +200,113 @@
 
 </section>        
         <!-- Predict -->
-        <section class="contact ptb-100" id="predict">
-            <div class="container">
-                <br><h2>Predict</h2>
-                <h1>Text</h1>
-                <p1>Text</p1>
-            </div>
-        </section>
-        </div>
-         <!-- About Us -->
-          <section class="about ptb-100" id="about">
-        <section class="testmonial">
-            <div class="container">
-                <div class="testmonial-inner">
-                <h1>About Us</h1>
-                    <h2>Prorillons</h2>
-                    <div class="testmonial-slider owl-carousel owl-theme">
-                        <!-- item -->
-                        <div class="testmonial-item">
-                            <h1>Mentor:</h1>
-                            <h3>Dr.T.Hemalatha</h3>
-                            <div class="client-data d-flex">
-                                <img src="assets/images/hod.png" alt=" ">
+        <section class="about ptb-100" id="predict">
+            <section class="testmonial1">
+                <div class="container">
+                    
+                    <div class="testmonial-inner">
+                        <h2>Predict</h2>
+                        <h1 style="color: #fff;">Model is under construction</h1>
+                        <a href="https://github.com/Team-Prorillons/Team-Prorillons.github.io/tree/main/ProjectFiles/Modeling" target="_blank" style="color: #fff;">Click here to view our Models</a>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="testmonial-slider owl-carousel owl-theme">
+                            <!-- item -->
+                            <div class="testmonial-item">
+                                <h3>Longitude and Latitude</h3>
+                                  <a href="assets/images/LocNN.svg" target="_blank" > <img src="assets/images/LocNN.svg" alt="predict " style="width:100%"></a>
                             </div>
-
-                           
+                            <!-- item -->
+                            <div class="testmonial-item">
+                                <h3>Event</h3>
+                                <a href="assets/images/EventNN.svg" target="_blank"> <img src="assets/images/EventNN.svg" alt="predict" style="width:100%;"></a>
                         </div>
                         <!-- item -->
                         <div class="testmonial-item">
-                            <h1>Team Leader:</h1>
-                            <h3>Gowtham</h3>
-                                <div class="client-data d-flex">
-                                    <img src="assets/images/male-2.png" alt=" ">
-                                </div>
-                        </div>
-                        <!-- item -->
-                        <div class="testmonial-item">
-                            <h1>Team Member:</h1>
-                            <h3>Surya Prakash</h3>
-                                <div class="client-data d-flex">
-                                    <img src="assets/images/male-3.png" alt=" ">
-                                </div>
-                        </div>
-                        <div class="testmonial-item">
-                            <h1>Team Member:</h1>
-                            <h3>Aravind Sapabathy</h3>
-                                <div class="client-data d-flex">
-                                    <img src="assets/images/male-4.png" alt=" ">
-                                </div>
-                        </div>
-                        <!-- item -->
-                        <div class="testmonial-item">
-                            <h1>Team Member:</h1>
-                            <h3>Logesh</h3>
-                          
-                                <div class="client-data d-flex">
-                                <img src="assets/images/male-1.png" alt="Developer"/>
-                                <p> HI I AM A Developer</p>
-                                    
-                                </div>
-                        </div>
-                        <div class="testmonial-item">
-                            <h1>Team Member:</h1>
-                            <h3>Keathareswar</h3>
-                            <div class="client-data d-flex">
-                                <img src="assets/images/male-icon.png" alt="">
-                            </div>
-                        </div>
+                            <h3>DateTime</h3>
+                            <a href="assets/images/datetimeNN.svg"><img src="assets/images/datetimeNN.svg" alt="predict " style="width:100%"></a>
                     </div>
-
+                    </div>
+            </section>
+         
+            </section>
+       
+         <!-- Video -->
+         <section class="services ptb-100" id="video">
+         <div class="container">
+            <h2>Video</h2>           
+            <video width="100%" height="50%" controls>
+                <source src="assets/Videos/Sample.mp4" type="video/mp4">
+              </video>
+       </div>
+       </div>
+       </section>
+         <!-- About Us -->
+         <section class="about ptb-100" id="about">
+            <section class="testmonial">
+                <div class="container">
+                    <div class="testmonial-inner">
+                    <h1>About Us</h1>
+                        <h2>Prorillons</h2>
+                        <div class="testmonial-slider owl-carousel owl-theme">
+                            <!-- item -->
+                            <div class="testmonial-item">
+                                <h1>Mentor:</h1>
+                                <h3>Dr.T.Hemalatha</h3>
+                                <div class="client-data d-flex">
+                                    <img src="assets/images/hod.png" alt=" ">
+                                </div>
+    
+                               
+                            </div>
+                            <!-- item -->
+                            <div class="testmonial-item">
+                                <h1>Team Leader:</h1>
+                                <h3>Gowtham</h3>
+                                    <div class="client-data d-flex">
+                                        <img src="assets/images/male-1.png" alt="Developer"/>
+                                    </div>
+                            </div>
+                            <!-- item -->
+                            <div class="testmonial-item">
+                                <h1>Team Member:</h1>
+                                <h3>Surya Prakash</h3>
+                                    <div class="client-data d-flex">
+                                        <img src="assets/images/male-1.png" alt="Developer"/>
+                                    </div>
+                            </div>
+                            <div class="testmonial-item">
+                                <h1>Team Member:</h1>
+                                <h3>Aravind Sapabathy</h3>
+                                    <div class="client-data d-flex">
+                                        <img src="assets/images/male-1.png" alt="Developer"/>
+                                    </div>
+                            </div>
+                            <!-- item -->
+                            <div class="testmonial-item">
+                                <h1>Team Member:</h1>
+                                <h3>Logesh</h3>
+                              
+                                    <div class="client-data d-flex">
+                                    <img src="assets/images/male-1.png" alt="Developer"/>     
+                                    </div>
+                            </div>
+                            <div class="testmonial-item">
+                                <h1>Team Member:</h1>
+                                <h3>Keathareswar</h3>
+                                <div class="client-data d-flex">
+                                    <img src="assets/images/male-1.png" alt="Developer"/>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
                 </div>
-            </div>
-        </section>
-        </section>
+            </section>
+            </section>
+    
+        
 
     </main>
     <!-- Footer -->
@@ -278,12 +321,13 @@
                         <li class="f-navlinks"><a href="#mapping">Mapping</a></li>
                         <li class="f-navlinks"><a href="#insights">Insights</a></li>
                         <li class="f-navlinks"><a href="#predict">Predict</a></li>
+                        <li class="f-navlinks"><a href="#video">Video</a></li>
                     </ul>
                 </div>
                 <div class="footer-bottom d-flex">
                     <p class="copyright">Team Prorillons</p>
-                    <div class="footer-social">
-                        <a href="https://github.com/Team-Prorillons" target="_blank"><class="footer-social"><img src="assets/images/social-icons/feather_github.svg"
+                   
+                        <a href="https://github.com/Team-Prorillons" target="_blank" class="footer-social"><img src="assets/images/social-icons/feather_github.svg"
                                 alt="github"></a>
                     </div>
                 </div>
@@ -323,14 +367,6 @@
         <img src="assets/images/uparrow.svg" alt="arrow up">
     </a>
 </body>
-<script>
-                   
-    function crime(ml)
-    {
-        document.getElementById("mapId").src = ml
-    }
-    
-</script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/gumshoe/dist/gumshoe.polyfills.min.js"></script>
