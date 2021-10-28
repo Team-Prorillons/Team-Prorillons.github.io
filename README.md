@@ -1,7 +1,7 @@
 ## Identification Of Crime Prone Areas - [Click here to view our page](https://team-prorillons.github.io/)
 **Note:**  This Project is still under development.
 ### To view our project files visit our [Project Folder](https://github.com/Team-Prorillons/Team-Prorillons.github.io/tree/main/ProjectFiles)
-#### Our Project Goal:
+#### Our Project Goal🎯:
 > The goal of this project is to find crimes before they happen. 
 > Hence we plan to use predictive algorithms using existing data to predict crime locations, crime instance and crime events. 
 > By doing so we can make our streets safer.
