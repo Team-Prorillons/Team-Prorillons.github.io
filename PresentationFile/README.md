@@ -11,9 +11,9 @@
 [Play Video on our Website▶️]()
 
 ### Our Project Github Repository📂 
-[Main Repository📁]()
+[Main Repository📁](https://github.com/Team-Prorillons/Team-Prorillons.github.io)
 
-[Project Folder📁]() 
+[Project Folder📁](https://github.com/Team-Prorillons/Team-Prorillons.github.io/tree/main/ProjectFiles) 
 
 #### Our Project Goal:
 > The goal of this project is to find crimes before they happen. 
